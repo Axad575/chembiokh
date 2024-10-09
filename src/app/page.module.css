@@ -3,6 +3,11 @@
   justify-content: space-between;
   
 }
+#minordiv{
+  overflow: hidden;
+  touch-action: none;
+  scroll-behavior: auto;
+}
 #navbtn{
   display: flex;
   justify-content: space-around;

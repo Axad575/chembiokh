@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div id={styles.minordiv}>
       <nav id={styles.navbar}>
         <h1>ChemBioKh</h1>
         <div id={styles.navbtn}>
