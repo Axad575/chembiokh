@@ -1,0 +1,95 @@
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+#navbtn{
+  display: flex;
+  justify-content: space-around;
+}
+#navbtn h1{
+  margin: 0dvh 3dvh;
+}
+#navbardiv button h1{
+  font-size: x-large;
+}
+
+#maintext{
+  text-align: center;
+  margin: 15dvh 5dvh;
+}
+#futurefacts{
+  padding-left: 8dvh;
+  padding-top: 3dvh;
+}
+#futurefacts li{
+  padding: 3dvh;
+}
+#whychooseus{
+  padding-left: 8dvh;
+  padding-top: 3dvh;
+}
+#whychooseus li{
+  padding: 3dvh;
+}
+#whychooseusdiv{
+  padding-top: 10dvh;
+}
+#forwho{
+  padding-left: 8dvh;
+  padding-top: 3dvh;
+}
+#forwho li{
+  padding: 3dvh;
+}
+#forwhodiv{
+  padding-top: 10dvh;
+}
+#coursesdiv{
+  padding-top: 10dvh;
+}
+#courses{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5dvh;
+  padding-bottom: 5dvh;
+}
+#courses div{
+  border: solid 1px gray;
+  border-radius: 3dvh;
+  padding: 3dvh;
+}
+#courses div h1{
+  text-align: center;
+}
+#footerdiv{
+  padding-top: 6dvh;
+  padding-bottom: 6dvh;
+}
+#footerdivtext{
+  text-align: center;
+  padding: 5dvh;
+}
+#footerbtn{
+  padding-top: 5dvh;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  #navbtn{
+    display: none;
+  }
+  #navbardiv{
+    display: none;
+  }
+  #courses{
+    display: grid;
+  }
+  #footerbtn{
+    display: grid;
+  }
+  #courses div{
+    margin-top: 2dvh;
+  }
+}
